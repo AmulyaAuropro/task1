@@ -7,3 +7,10 @@ print(num)
 input1=int(input("enter a value:"))
 list2=[ i for i in my_list  if i>=input1]
 print(list2)
+
+
+output:
+    [10, 13, 22, 35, 52, 83]
+     enter a value:35
+       [35, 52, 83]
+    
