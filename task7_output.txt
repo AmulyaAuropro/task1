@@ -1,0 +1,76 @@
+Enter first number:1
+Enter Second number:2
+Choice the Operation:
+1. addition(+)       
+2. substration(-)    
+3. multiplication(*) 
+4. division(%)       
+Enter the choice : 1 
+Addition of 1.0 and 2.0 is : 3.0     
+Do you want to continue (yes/exit) : yes
+
+
+Enter first number:1
+Enter Second number:2
+Choice the Operation:
+1. addition(+)       
+2. substration(-)    
+3. multiplication(*) 
+4. division(%)       
+Enter the choice : 2 
+substraction of 1.0 and 2.0 is : -1.0
+Do you want to continue (yes/exit) : yes
+
+
+Enter first number:1
+Enter Second number:2
+Choice the Operation:
+1. addition(+)       
+2. substration(-)    
+3. multiplication(*) 
+4. division(%)
+Enter the choice : 3
+multiplication of 1.0 and 2.0 is : 2.0
+Do you want to continue (yes/exit) : yes
+
+
+Enter first number:1
+Enter Second number:2
+Choice the Operation:
+1. addition(+)
+2. substration(-)
+3. multiplication(*)
+4. division(%)
+Enter the choice : 4
+division of 1.0 and 2.0 is : 0.5
+Do you want to continue (yes/exit) : yes
+
+
+Enter first number:1
+Enter Second number:0
+Choice the Operation:
+1. addition(+)
+2. substration(-)
+3. multiplication(*)
+4. division(%)
+Enter the choice : 4
+Invalid compute ZeroDivisionError
+division of 1.0 and 0.0 is : None
+Do you want to continue (yes/exit) : yes 
+
+Enter first number:a
+Invaild input could not convert string to float: 'a'
+
+
+Enter first number:8
+Enter Second number:0
+Choice the Operation:
+1. addition(+)
+2. substration(-)
+3. multiplication(*)
+4. division(%)
+Enter the choice : 4
+Invalid compute ZeroDivisionError
+division of 8.0 and 0.0 is : None
+Do you want to continue (yes/exit) : exit
+Total Number of calculations: 6
