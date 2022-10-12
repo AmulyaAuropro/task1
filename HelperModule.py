@@ -1,3 +1,10 @@
+# Write a function that prints the even numbers from a provided list.
+def print_even_numbers():
+    numbers = [23,89,76,345,65,8,9,0,5,8]
+    for n in numbers:
+        # checking condition
+        if n % 2 == 0:
+            print(n)
 
 def count_case_letters():
     word = input("Enter a string: ")
@@ -12,6 +19,7 @@ def count_case_letters():
     print("String: "+word)
     print("No of Upper Characters :"+str(result['UPPER_COUNT']))
     print("No of Lower Characters :"+str(result['LOWER_COUNT']))
+
 
 
 class employees:
