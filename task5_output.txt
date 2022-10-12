@@ -1,0 +1,4 @@
+Enter a string: AmuLyA02 
+String: AmuLyA02
+No of Upper Characters :3
+No of Lower Characters :3
