@@ -26,7 +26,7 @@ for employee in employees:
     print("City: ", employee['address']['city'])       
 
 # access second employee country
-print(employees[1]['address']['country'])   
+print(employees[1]['address']['country'])    
 
 output:
 Name:  Tina
@@ -36,4 +36,3 @@ Name:  Tim
 Job:  Developer
 City:  Sydney
 Australia
-
