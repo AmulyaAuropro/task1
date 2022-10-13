@@ -1,8 +1,8 @@
 employee={
-  "name": "Tim",
-  "age": 30,
-  "birthday": "1990-03-10",
-  "job": "DevOps Engineer"
+  "name : ": "Tim",
+  "age : ": 30,
+  "birthday : ": "1990-03-10",
+  "job : ": "DevOps Engineer"
 }
 
 employee['job'] = "Software Engineer"
