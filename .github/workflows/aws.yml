@@ -60,15 +60,15 @@ jobs:
         aws-secret-access-key: oAAVDtIJyeTkiwrVoaD3TibMoE/TY1WpLWrAZBrv
         aws-region: us-east-1
 
-    - name: Login to Amazon ECR
-      id: login-ecr
-      uses: aws-actions/amazon-ecr-login@v1
-    - name: pushiing image
-      run: docker build -t terraform .
-    - name: terraform
-      run: docker tag terraform:latest 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
-    - name: terraform
-      run: docker push 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
+#     - name: Login to Amazon ECR
+#       id: login-ecr
+#       uses: aws-actions/amazon-ecr-login@v1
+#     - name: pushiing image
+#       run: docker build -t terraform .
+#     - name: terraform
+#       run: docker tag terraform:latest 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
+#     - name: terraform
+#       run: docker push 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
     - name: intialize
       run: terraform init
     - name: building
