@@ -67,7 +67,7 @@ jobs:
     - name: terraform initlize
       run: terraform init
     - name: building
-      run: terraform apply
+      run: terraform apply -auto-approve
     - name: taging
       run: docker tag new:latest 927777990122.dkr.ecr.us-east-1.amazonaws.com/new:latest
     - name: pushing image
