@@ -59,6 +59,12 @@ jobs:
         aws-access-key-id: AKIA5QA7AUXVCHYNB7GF
         aws-secret-access-key: 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
         aws-region: us-east-1
+    - name: building image
+      run: docker build -t terraform .
+    - name: taging
+      run: docker tag terraform:latest 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
+    - name: pushing image
+      run: docker push 927777990122.dkr.ecr.us-east-1.amazonaws.com/terraform:latest
     - name: intialize
       run: terraform init
     - name: building
