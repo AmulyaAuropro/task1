@@ -59,6 +59,9 @@ jobs:
         aws-access-key-id: AKIA5QA7AUXVCHYNB7GF
         aws-secret-access-key: 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
         aws-region: us-east-1
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
     - name: building image
       run: docker build -t terraform .
     - name: taging
