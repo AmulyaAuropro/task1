@@ -72,7 +72,7 @@ jobs:
     - name: intialize
       run: terraform init
     - name: building
-      run: terraform apply
+      run: terraform apply -auto-approve
       
       
 
