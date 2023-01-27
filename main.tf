@@ -1,14 +1,14 @@
 provider "aws" {
     region = "us-east-1"
-    access_key = "AKIA5QA7AUXVCHYNB7GF"
-    secret_key = "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" 
+    access_key = "AKIAQBOKRNRFG62GQ43S"
+    secret_key = "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" 
 }
 
 resource "aws_instance" "web" {
-    ami           = "ami-0b5eea76982371e91"
+    ami           = "ami-0aa7d40eeae50c9a9"
     instance_type = "t2.micro"
-    subnet_id = "subnet-0496c1b09ddd1bf1b"
-    security_groups = ["sg-04dae266186375f62"]
+    subnet_id = "subnet-073aa277934df7bf9"
+    security_groups = ["sg-0547cad79f183323c"]
 
     tags = {
       Name = "first_Instance"
